@@ -289,11 +289,11 @@ const scaleFactorSelector = () => store.state.config.scaleFactor;
 const helpContent = {
   shellType: {
     header: "Hình dạng",
-    body: 'Chọn loại pháo hoa sẽ được bắn. Có thể chọn  "Random" để có thể xem nhiều loại khác nhau!',
+    body: 'Chọn loại pháo hoa sẽ được bắn. Có thể chọn  "Random" để có thể xem nhiều loại khác nhau.',
   },
   shellSize: {
     header: "Kích cỡ",
-    body: "Tùy chỉnh kích thước của pháo hoa, kích thước càng lớn cần xử lí nhiều hơn, cẩn thận giật lag!",
+    body: "Tùy chỉnh kích thước của pháo hoa, kích thước càng lớn cần xử lí nhiều hơn.",
   },
   quality: {
     header: "Chất lượng",
@@ -301,11 +301,11 @@ const helpContent = {
   },
   skyLighting: {
     header: "Màu nền",
-    body: 'Chiếu sáng nền khi pháo hoa nổ.  Nếu nền quá sáng trên màn hình của bạn, hãy thử đặt nó "Dim" or "None".',
+    body: 'Chiếu sáng nền khi pháo hoa nổ. Nếu nền quá sáng trên màn hình của bạn, hãy thử đặt nó "Dim" or "None".',
   },
   scaleFactor: {
     header: "Tỉ lệ",
-    body: "Cho phép mở rộng kích thước của tất cả pháo hoa, cơ bản là đưa bạn đến gần hơn hoặc ra xa hơn. ",
+    body: "Cho phép mở rộng kích thước của tất cả pháo hoa, đưa bạn đến gần hơn hoặc ra xa hơn.",
   },
   autoLaunch: {
     header: "Bắn tự động",
@@ -317,7 +317,7 @@ const helpContent = {
   },
   hideControls: {
     header: "Ẩn cài đặt",
-    body: "Ẩn các điều khiển mờ dọc theo đầu màn hình. Hữu ích cho ảnh chụp màn hình hoặc chỉ là trải nghiệm liền mạch hơn. Khi bị ẩn, bạn vẫn có thể nhấn vào góc trên bên phải để mở lại menu này.",
+    body: "Ẩn các điều khiển mờ dọc theo đầu màn hình để ảnh chụp màn hình hoặc cho trải nghiệm liền mạch hơn. Khi ẩn đi, bạn vẫn có thể nhấn vào góc trên bên phải để mở lại menu này.",
   },
   fullscreen: {
     header: "Toàn màn hình",
